@@ -1,0 +1,27 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "node":"10.4.0",
+  "description": "a simple http assignment",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./src/server.js",
+    "pretest":"eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarrettbriody/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "Jarrett Briody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jarrettbriody/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/jarrettbriody/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
